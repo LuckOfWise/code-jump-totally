@@ -1,0 +1,35 @@
+.header
+  padding-top: 40px
+  padding-bottom: 10px
+  border-bottom: 1px solid #bbb
+
+  @include media-breakpoint-down(md)
+    padding-top: 20px
+    border-bottom: none
+
+.header__title
+  font-size: 25px
+  font-weight: bold
+  text-align: center
+  margin-bottom: 30px
+
+.header__nav
+  padding: 0 120px
+  @include media-breakpoint-down(md)
+    padding: 0
+    overflow: auto
+
+.header__nav-list
+  font-size: 12px
+  display: flex
+  list-style: none
+  padding-left: 0
+  gap: 10px
+
+.header__nav-item
+  &.is-right
+    margin-left: auto
+
+.header__nav-link
+  color: #555
+  text-decoration: none
