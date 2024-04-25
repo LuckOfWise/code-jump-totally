@@ -1,14 +1,15 @@
 .home
   .row
-    .col-md-4.offset-md-2.px-3
+    .col-md-4.offset-md-2.home__column
       = image_tag 'https://code-jump.com/demo/html/ec/img/item.jpg', class: 'home__image'
-    .col-md-4.px-3
+    .col-md-4.home__column
       %h2.home__title
         TOTALLY Short Sleeve Shirt
       .home__description
         テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト
       .home__price
-        ￥9,999 +tax
+        ￥9,999
+        %small +tax
       %table.home__variants
         %tr
           %th Color
